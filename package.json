@@ -1,0 +1,22 @@
+{
+  "name": "auroracall",
+  "version": "1.0.0",
+  "description": "A fullstack chat and video calling application with real-time messaging and scalable technologies.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start:frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": ["chat", "video-call", "react", "express", "mongodb", "stream"],
+  "author": "Your Name <ab13dev@example.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ab13abhishek/auroracall.git"
+  }
+}
