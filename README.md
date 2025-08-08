@@ -1,8 +1,6 @@
-# ✨ AuroraCall: Fullstack Chat & Video Calling Application ✨
+# [✨ AuroraCall: Fullstack Chat & Video Calling Application ✨](https://auroracall.onrender.com/login)
 
 AuroraCall is a modern, fullstack application for seamless real-time chat and video calling, designed with a robust feature set for enhanced user experience.
-
-🌐 [https://auroracall.onrender.com/login]
 
 ---
 
